@@ -1,0 +1,29 @@
+{
+  "name": "recipe",
+  "version": "1.0.0",
+  "description": "Recipe_data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "helmet": "^3.21.2",
+    "http-errors": "^1.7.3",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.9.1",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4",
+    "request": "^2.88.2"
+  }
+}
